@@ -22,22 +22,21 @@ public class App {
             for (int j = 0; j < encoded.size(); j++) {
                 for (int k = 0; k < decoded.size(); k++) {
                     encoded.remove(decoded.get(k));
-                    
+
                 }
 
             }
-            if(encoded.size() != 0){
-                for(int yyy = 0; yyy < encoded.size(); yyy++) {
+            if (encoded.size() != 0) {
+                for (int yyy = 0; yyy < encoded.size(); yyy++) {
                     System.out.print(encoded.get(yyy));
-                    if(yyy == encoded.size() - 1){
+                    if (yyy == encoded.size() - 1) {
                         System.out.println();
                     }
                 }
-            }else{
+            } else {
                 System.out.println("ALL LETTERS ARE GONE");
             }
 
-    
         }
 
     }
